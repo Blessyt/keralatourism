@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MALAPPURAM</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{ 
+        display: grid;
+        place-items: center;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./dist-images/kulampattu-malappuram.jpg);
+        background-position: center;
+        background-size: cover;   
+    }
+    .container{
+        margin: 60px 25px;
+        display: flex;
+        flex-wrap: wrap; 
+        align-items: center;
+        justify-content: space-between;
+    /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/home.png); */
+
+    }
+    .card {
+        height: 550px;
+        width: 230px;
+        margin: 0 10px;
+        box-shadow:2px 3px 4px rgba(29, 223, 200, 0.7);
+        background-color: transparent;
+        
+        /* display:inline-flexbox; */
+        /* overflow: hidden; */
+        text-align: center;
+        line-height: 20px;
+        align-items: center;
+        transition: 0.5s ease;
+        cursor: pointer;
+    } 
+    .card:hover {
+        transform: scale(1.2);
+        background-color: #f0400b;
+
+    }
+    
+
+    .card .img{
+        height: 150px;
+        width: 230px;
+        }
+
+    .card .img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: 0.5s;
+
+    } 
+    
+    .card .name{
+        font-size: large;
+        font-weight: bolder;
+        padding: 10px 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: underline;
+        color: rgb(20, 185, 150);
+    } 
+    .card .description{
+        font-size:15px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 15px;
+        text-align: justify;
+        padding: 0 10px 10px 10px;
+        color: #fff;
+    }
+
+
+</style>
+
+
+
+<body>
+    <div class="container">
+
+        <!-- card 1 -->
+
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/mlpm-Teak_Museum_Nilambur-card1.jpg">
+            </div>
+            <!-- <div class="heading"> -->
+                <div class="name">
+                  NILAMBUR TEAK MUSEUM
+                </div>  
+                <div class="description">
+                    Established in 1994, Nilambur Teak Museum is the first teak museum in the country. They have a collection of information in the form of articles and comprehensive documents that also mention the historic and artistic value of the wood.
+
+
+
+
+                </div> 
+            <!-- </div>  -->
+        </div>
+
+        <!-- card2 -->
+
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/mlpm-Arimbra_Hills-card2.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                     ARIMBRA HILLS
+                </div>  
+                <div class="description">
+                    Mini Ooty is another name given to the enchanting Arimbra Hills. The attraction is located about 1000 feet above sea level and is famous for its picturesque location and a mind stirring view of the surrounding valleys and rolling hills. It is a favourite weekend getaway for the locals. Its resemblance to Ooty draws many tourists each year.
+
+
+                </div> 
+            </div> 
+        </div>
+
+        <!--card3  -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/mlpm-card3.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    
+                    NEDUMKAYAM
+                </div>  
+                <div class="description">
+                
+                    Nedumkayam is a rainforest and a part of the Nilgiri Bioreserve. It is mostly known for its dense forestation with several species of flora and fauna including some rare and endangered species and several mesmerising water bodies making it is a perfect attraction for nature lovers. The region has a charming little guest house from where one can observe and capture photographs of the surrounding forest.
+                </div> 
+            </div> 
+        </div>
+
+<!-- card4 -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/mlpm-kayal-card4.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    BIYYAM KAYAL
+                </div>  
+                <div class="description">
+                    Biyyam Kayal is a beautiful backwater lake in the region. Lines by tall coconut trees, the pristine lake is famous for recreational activities and thrilling water sports that attract tourists every year.
+
+                </div> 
+            </div> 
+        </div>
+
+        <!-- card5 -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/mlpm-card5.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    KERALAMKUNDU WATERFALL
+                </div>  
+                <div class="description">
+                    Keralamkundu Waterfalls is a stunning natural water body. The water falls down several feet forming a pool at the bottom. The pool is apparently formed by years of weathering caused by the cascading water. The attraction amidst lush greenery, pristine waters and fresh air is a tranquil escape for the tired soul.
+
+
+
+
+                </div> 
+            </div> 
+
+
+        </div>
+    
+    </div>
+
+
+    
+</body>
+</html>

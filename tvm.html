@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>THIRUVANANTHAPURAM</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{ 
+            display: grid;
+            place-items: center;
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./dist-images/Kathakali-tvm.jpg);
+            background-position: center;
+            background-size: cover;   
+        }
+        .container{
+            margin: 60px 25px;
+            display: flex;
+            flex-wrap: wrap; 
+            align-items: center;
+            justify-content: space-between;
+        /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/home.png); */
+
+        }
+        .card {
+            height: 550px;
+            width: 230px;
+            margin: 0 10px;
+            box-shadow:2px 3px 4px rgba(29, 223, 200, 0.7);
+            background-color: transparent;
+            
+            /* display:inline-flexbox; */
+            /* overflow: hidden; */
+            text-align: center;
+            line-height: 20px;
+            align-items: center;
+            transition: 0.5s ease;
+            cursor: pointer;
+        } 
+        .card:hover {
+            transform: scale(1.2);
+            background-color: #f0400b;
+
+        }
+        
+
+        .card .img{
+            height: 150px;
+            width: 230px;
+            }
+
+        .card .img img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transition: 0.5s;
+
+        } 
+        
+        .card .name{
+            font-size: large;
+            font-weight: bolder;
+            padding: 10px 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: underline;
+            color: rgb(20, 185, 150);
+        } 
+        .card .description{
+            font-size:15px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: 15px;
+            text-align: justify;
+            padding: 0 10px 10px 10px;
+            color: #fff;
+        }
+
+
+    </style>
+</head>
+
+
+
+<body>
+    <div class="container">
+
+        <!-- card 1 -->
+
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/tvm-poovar-1.jpg">
+            </div>
+            <!-- <div class="heading"> -->
+                <div class="name">
+                    POOVAR ISLAND
+                </div>  
+                <div class="description">
+                    
+                    As Poovar is an estuary of Neyyar river, it has its natural beauty and splendour. 
+                    Being there is like doing a meditation/prayer.Various sight seeing places are there like 
+                    mangroves forest, Mother Mary statue, 
+                    elephant rock, coconut island, floating restaurant, floating cottages, etc.
+                </div> 
+            <!-- </div>  -->
+        </div>
+
+        <!-- card2 -->
+
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/tvm-peppara-wildlife-sanctuary-card2.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    PEPPARA WILDLIFE SANTUARY
+                </div>  
+                <div class="description">
+                  The view of Ponmudi hills from the
+                   dam is a visual treat. The lake water was greenish blue and appeared placid.The main 
+                   attractions are bamboo rafting, boating. The sanctuary rich in flora and fauna offers a natural habitat 
+                   to around 43 species of mammals, 233 species of birds, 46 species of reptiles, 13 species of amphibians 
+                   and 27 species of fishes.. 
+                </div> 
+            </div> 
+        </div>
+
+        <!--card3  -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/agastya-mala-tvm-3.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    AGASTAYA MALA
+                </div>  
+                <div class="description">
+                    Agastya Mala is known for its lush green surroundings and the flora and fauna.  Manjolai Hills, Manimuthar Waterfalls, Tea Plantations, Steve Irwin Crocodile Research and 
+                    Rehabilitation Center, Kalakkad Mundanthurai Wildlife Reserve, Kuthiravetti View Point and 
+                    Agastya Muni Statue are the various important places to visit in Agastya mala.
+                </div> 
+            </div> 
+        </div>
+
+<!-- card4 -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/tvm-kovalam-card4.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    KOVALAM BEACH
+                </div>  
+                <div class="description">
+                    
+                    Kovalam is extremely popular among westerners due to shallow waters and low tidal waves.
+                     The larger of the beaches is called Lighthouse Beachknown for its 35 metre high lighthouse 
+                    which towers over it atop Kurumkal hillock. It takes less than five minutes
+                    to walk from Lighthouse Beach to the second largest beach, Hawah Beach.The northern part of 
+                    the beach is known as Samudra Beach. 
+                    
+                </div> 
+            </div> 
+        </div>
+
+        <!-- card5 -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/tvm-museum-card5.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    SRI CHITRA ART GALLERY
+                </div>  
+                <div class="description">
+                    The gallery features a unique collection of traditional and contemporary paintings, 
+                    including the works of Raja Ravi Varma, Nicholas Roerich, Svetoslav Roerich, Jamini Roy, 
+                    Rabindranath Tagore, V. S. Valiathan, C. Raja Raja Varma, and K. C. S. Paniker. There are 
+                    approximately 1100 paintings at the gallery. The art gallery has on display works from the 
+                    Mughal, Rajput, Bengal, Rajastani, and Tanjore schools of art. 
+                </div> 
+            </div> 
+
+
+        </div>
+    
+    </div>
+    
+</body>
+</html>

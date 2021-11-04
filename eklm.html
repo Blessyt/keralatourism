@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ERNAKULAM</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{ 
+        display: grid;
+        place-items: center;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./dist-images/theyattu-eklm.jpg);
+        background-position: center;
+        background-size: cover;   
+    }
+    .container{
+        margin: 60px 25px;
+        display: flex;
+        flex-wrap: wrap; 
+        align-items: center;
+        justify-content: space-between;
+    /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/home.png); */
+
+    }
+    .card {
+        height: 550px;
+        width: 230px;
+        margin: 0 10px;
+        box-shadow:2px 3px 4px rgba(29, 223, 200, 0.7);
+        background-color: transparent;
+        
+        /* display:inline-flexbox; */
+        /* overflow: hidden; */
+        text-align: center;
+        line-height: 20px;
+        align-items: center;
+        transition: 0.5s ease;
+        cursor: pointer;
+    } 
+    .card:hover {
+        transform: scale(1.2);
+        background-color: #f0400b;
+
+    }
+    
+
+    .card .img{
+        height: 150px;
+        width: 230px;
+        }
+
+    .card .img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: 0.5s;
+
+    } 
+    
+    .card .name{
+        font-size: large;
+        font-weight: bolder;
+        padding: 10px 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: underline;
+        color: rgb(20, 185, 150);
+    } 
+    .card .description{
+        font-size:15px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 15px;
+        text-align: justify;
+        padding: 0 10px 10px 10px;
+        color: #fff;
+    }
+
+
+</style>
+
+
+
+<body>
+    <div class="container">
+
+        <!-- card 1 -->
+
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/eklm-Museum-of-Mattancherry-card1.jpg">
+            </div>
+            <!-- <div class="heading"> -->
+                <div class="name">
+                  MATTANCHERRY MUSEUM
+                </div>  
+                <div class="description">
+                    It is said that back in the days, this cheri (street), was lined with mutton butchers, and so it ended up being called “Muttoncherry” which over the years evolved into “Mattancherry”. Today the place exhibits centuries-old architectures and various social and cultural imprints left behind by foreigners. Declared as a heritage site by the government, Mattancherry has been an inspiration to historians, film-makers, travellers and artistes alike. Amongst all the Ernakulam tourist places, this museum is one of the most prominent attractions.
+
+                </div> 
+            <!-- </div>  -->
+        </div>
+
+        <!-- card2 -->
+
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/eklm-Vypeen-Island-card2.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    VYPEEN ISLAND
+                </div>  
+                <div class="description">
+                    Vypeen is one of the popular places to visit in Ernakulam in one day and certainly one of the best islands in Kerala. A short and beautiful ferry ride from the city will take to this serene island which is dotted with beaches, backwaters and an array of restaurants and hotels. A desktop worthy scenery away from the bustling environment is what makes Vypeen island one of the best places to visit in Ernakulam for lovers.
+
+                </div> 
+            </div> 
+        </div>
+
+        <!--card3  -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/eklm-Thattekkad-Bird-Sanctuary-card3.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    THATTEKAD BIRD SANTUARY
+                </div>  
+                <div class="description">
+                    In the words of Salim Ali (world famous ornithologist), Thattekkad is the “richest bird sanctuary in India” since it is home to hundreds of different endangered species of migratory birds. This thick deciduous forest has plantations of mahogany, teak, rosewood and rubber running through it. 
+                
+                </div> 
+            </div> 
+        </div>
+
+<!-- card4 -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/eklm-Folklore-Museum-card4.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    FOLKLORE MUSEUM
+                </div>  
+                <div class="description">
+                     It displays cultural exhibits and folk-tribal objects of the 
+                    state. The museum is a 3 storeyed building and representing the real legacy of Kerala. 
+                    The building’s facade had a very strong Malabar architectural influence.
+                    Folklore Theatre and Museum displays traditional Kathakali masks, costumes, sculptures, musical instruments, ornaments, and utensils which belong to the historic stone age. Do not miss the manichitrathazhu, a traditional ornate door lock of Kerala while you enter the building.
+
+                </div> 
+            </div> 
+        </div>
+
+        <!-- card5 -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/eklm-Shiva-Temple-card5.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    SHIVA TEMPLE
+                </div>  
+                <div class="description">
+                    The Shiva temple is also known as Ernakulathappan Temple. It is one of the seven royal 
+                    temples of Kochi Maharaja and is considered as the one which protects the entire city. 
+                    This temple is one of the popular places to visit in Kochi, not only among locals but 
+                    also among inter-state visitors.
+
+                    Watch and marvel at the traditional temple structure that reflects the 
+                    Malabar heritage, especially the finely sculptured walls, sanctum complex, and delicately
+                     decorated gates or gopuram.
+
+
+                </div> 
+            </div> 
+
+
+        </div>
+    
+    </div>
+
+
+    
+</body>
+</html>

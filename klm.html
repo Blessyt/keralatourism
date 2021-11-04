@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KOLLAM</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{ 
+        display: grid;
+        place-items: center;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./dist-images/Ottamthullal-klm.jpg);
+        background-position: center;
+        background-size: cover;   
+    }
+    .container{
+        margin: 60px 25px;
+        display: flex;
+        flex-wrap: wrap; 
+        align-items: center;
+        justify-content: space-between;
+    /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/home.png); */
+
+    }
+    .card {
+        height: 550px;
+        width: 230px;
+        margin: 0 10px;
+        box-shadow:2px 3px 4px rgba(29, 223, 200, 0.7);
+        background-color: transparent;
+        
+        /* display:inline-flexbox; */
+        /* overflow: hidden; */
+        text-align: center;
+        line-height: 20px;
+        align-items: center;
+        transition: 0.5s ease;
+        cursor: pointer;
+    } 
+    .card:hover {
+        transform: scale(1.2);
+        background-color: #f0400b;
+
+    }
+    
+
+    .card .img{
+        height: 150px;
+        width: 230px;
+        }
+
+    .card .img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: 0.5s;
+
+    } 
+    
+    .card .name{
+        font-size: large;
+        font-weight: bolder;
+        padding: 10px 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: underline;
+        color: rgb(20, 185, 150);
+    } 
+    .card .description{
+        font-size:15px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 15px;
+        text-align: justify;
+        padding: 0 10px 10px 10px;
+        color: #fff;
+    }
+
+
+</style>
+
+
+
+<body>
+    <div class="container">
+
+        <!-- card 1 -->
+
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/klm-jadayupara-card1.jpg">
+            </div>
+            <!-- <div class="heading"> -->
+                <div class="name">
+                    JATAYUPPARA
+                </div>  
+                <div class="description">
+                    Jatayu Nature Park is a rock-themed park.Built to promote mythology and adventure tourism, the tourism 
+                    centre boasts of 6D theatre, a digital audio-visual room, cable car and ayurvedic cave resort. It is also 
+                    home to umpteen adventure activities including paintball, laser tag, archery, bouldering, rock climbing, 
+                    air-rifle shooting etc. The primary attraction of the park, however, is the world's largest stone-cut bird 
+                    sculpture replicating Jatayu, the mythical bird from Ramayana.
+
+                    
+                </div> 
+            <!-- </div>  -->
+        </div>
+
+        <!-- card2 -->
+
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/klm-beach-card2.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    KOLLAM BEACH
+                </div>  
+                <div class="description">
+                    The scenic and breathtaking natural wonder is known as the Mahatma Gandhi Beach and boasts of pristine 
+                    blue waters that seem to unite with the bright sky at an infinite distance.
+
+                    The Kollam Beach is brimming with a large number all year round who 
+                    can be seen enjoying the numerous activities that the beach offers, while also appreciating the enchanting
+                    panoramic views of the Arabian Sea. The cultural and spiritual aura of the beach is indeed contagious 
+                    and fills the visitors with renewed energy and passions.
+
+                </div> 
+            </div> 
+        </div>
+
+        <!--card3  -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/klm-Kottarakkara_Temple-card3.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    KOTTARAKARA GANAPATI  TEMPLE 
+                </div>  
+                <div class="description">
+                    The Kottarakkara Sree Mahaganapathy Kshethram is a famous pilgrim centre that is located 
+                    in southern India, in Kottarakkara. Considered to be one of the most important Maha Ganapathi Temple
+                     in all of Kerala, the temple is believed to be centuries old. Even though the main deity at the temple
+                      is Lord Shiva, Lord Ganesha is given utmost importance here. Other deities worshipped at the temple 
+                      are Goddess Parvati, Lord Ganesha, Lord Murugan, Nagaraja and Lord Ayyappan.
+                </div> 
+            </div> 
+        </div>
+
+<!-- card4 -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/klm-sasthamkottalake-card4.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    SASTHAMKOTTA LAKE
+                </div>  
+                <div class="description">
+                    Sasthamcotla Lake is the largest freshwater lake in Kerala and said to have derived its name from an 
+                    ancient Sastha Temple located near the lake. The lake is the biggest source of drinking water for the 
+                    residents of kollam town.Located19 kms from kollam town, this lake houses a large population of larva 
+                    cavborus which is responsible of consuming bacteria from the lake water and makes its healthy for drinking.
+
+                    
+                </div> 
+            </div> 
+        </div>
+
+        <!-- card5 -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/klm-Kottukal_cave-card5.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    KOTTUKAL CAVE
+                </div>  
+                <div class="description">
+                    The rock-cut temple comprises of two caves in all, both of which 
+                    face the east direction. An idol of the presiding deity Lord Ganpati is present between 
+                    the two caves. In addition to this, the more massive cave has Nandi in it, while the smaller 
+                    one has an idol of Lord Hanuman. A Shivalinga is also present inside the temple. This combination 
+                    of Shivalinga, Nandi and Hanuman is unique and is found nowhere in India other than in Kollam.
+                    When viewed from a distance, it appears to be a sleeping elephant and this adds to the beauty of the 
+                    cave temple.
+                </div> 
+            </div> 
+
+
+        </div>
+    
+    </div>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KOZHIKODE</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{ 
+        display: grid;
+        place-items: center;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./dist-images/Kolkali-kzhd.jpg);
+        background-position: center;
+        background-size: cover;   
+    }
+    .container{
+        margin: 60px 25px;
+        display: flex;
+        flex-wrap: wrap; 
+        align-items: center;
+        justify-content: space-between;
+    /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/home.png); */
+
+    }
+    .card {
+        height: 550px;
+        width: 230px;
+        margin: 0 10px;
+        box-shadow:2px 3px 4px rgba(29, 223, 200, 0.7);
+        background-color: transparent;
+        
+        /* display:inline-flexbox; */
+        /* overflow: hidden; */
+        text-align: center;
+        line-height: 20px;
+        align-items: center;
+        transition: 0.5s ease;
+        cursor: pointer;
+    } 
+    .card:hover {
+        transform: scale(1.2);
+        background-color: #f0400b;
+
+    }
+    
+
+    .card .img{
+        height: 150px;
+        width: 230px;
+        }
+
+    .card .img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: 0.5s;
+
+    } 
+    
+    .card .name{
+        font-size: large;
+        font-weight: bolder;
+        padding: 10px 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: underline;
+        color: rgb(20, 185, 150);
+    } 
+    .card .description{
+        font-size:15px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 15px;
+        text-align: justify;
+        padding: 0 10px 10px 10px;
+        color: #fff;
+    }
+
+
+</style>
+
+
+
+<body>
+    <div class="container">
+
+        <!-- card 1 -->
+
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/kzhd-card1.jpg">
+            </div>
+            <!-- <div class="heading"> -->
+                <div class="name">
+                  MANANCHIRA SQUARE
+                </div>  
+                <div class="description">
+
+                    Fed by a natural shower, Mananchira is a man-made freshwater pond surrounding which is the astounded complex, Mananchira Square. The pond was built in around 14th century
+                    It is an architectural glimpse having fabulous landscaped lawns, and musical fountains.The serenity of the pristine water gives a soothing effect.
+
+It has an artificial hill and tremendous looking structures. It has been kept as a reminiscent of the ancient times due to its traditional architectural style
+
+                </div> 
+            <!-- </div>  -->
+        </div>
+
+        <!-- card2 -->
+
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/kzhd-card3.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                        PERUVANNAMUZHI DAM 
+                </div>  
+                <div class="description">
+                    Situated 60 km off Kozhikode, the Peruvannamuzhi Dam is a beautiful place surrounded by verdant greenery. The reservoir here offers speed boat and row boat ride across the 'Smaraka Thottam' - a garden built in the memory of freedom fighters in the region.
+
+There is also a crocodile farm & bird sanctuary located a close to the dam for the wildlife lovers.
+
+                </div> 
+            </div> 
+        </div>
+
+        <!--card3  -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/kzhd-Kappad_Beach-card2.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    KAPPAD BEACH
+                    
+                </div>  
+                <div class="description">
+                    The Kappad Beach in Kerala is infamous for being the destination of Vasco Da Gama, the famous 
+                    Portuguese explorer. It is the shore that made the explorer the first to reach India by sea. 
+                    Today, Kappad is one of the most scenic beaches India has to offer. It is lined with palm trees 
+                    and sedimentary rocks that decorate the shore and give any visitor a serene feeling. 
+                    The idyllic beach is apt for rejuvenation of body and soul. 
+
+                
+                </div> 
+            </div> 
+        </div>
+
+<!-- card4 -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/kzhd-card4.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    SAROVARAM BIO PARK
+                    
+                </div>  
+                <div class="description">
+                    Sarovaram Bio Park is an enthralling venture to conserve the rich mangrove forests and wetlands of Kerala.
+                    Besides giving a taste of surreal beauty and captivating locales, the park has other attractions for its tourists including canal walkway, boating facilities, otter park, butterfly park, bird sanctuary, aquarium, amphitheatre, floating rafts, musical fountains and children’s park.
+                </div> 
+            </div> 
+        </div>
+
+        <!-- card5 -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/kzhd-Pazhassi_Raja_Museum-card5.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    PAZHASSIRAJA MUSEUM
+
+                </div>  
+                <div class="description">
+
+                    Pazhassiraja Museum located on East Hill has been named after the great Pazhassiraja Kerala Varma of the Padinjare Kovilakom of the Kottayam Royal Family. The museum is famous for its various archaeological remains such as antique bronzes, ancient paintings and the historical umbrella stones etc.
+
+
+                </div> 
+            </div> 
+
+
+        </div>
+    
+    </div>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PATHANAMTHITTA</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{ 
+        display: grid;
+        place-items: center;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./dist-images/Patayani-ptm.jpg);
+        background-position: center;
+        background-size: cover;   
+    }
+    .container{
+        margin: 60px 25px;
+        display: flex;
+        flex-wrap: wrap; 
+        align-items: center;
+        justify-content: space-between;
+    /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/home.png); */
+
+    }
+    .card {
+        height: 550px;
+        width: 230px;
+        margin: 0 10px;
+        box-shadow:2px 3px 4px rgba(29, 223, 200, 0.7);
+        background-color: transparent;
+        
+        /* display:inline-flexbox; */
+        /* overflow: hidden; */
+        text-align: center;
+        line-height: 20px;
+        align-items: center;
+        transition: 0.5s ease;
+        cursor: pointer;
+    } 
+    .card:hover {
+        transform: scale(1.2);
+        background-color: #f0400b;
+
+    }
+    
+
+    .card .img{
+        height: 150px;
+        width: 230px;
+        }
+
+    .card .img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: 0.5s;
+
+    } 
+    
+    .card .name{
+        font-size: large;
+        font-weight: bolder;
+        padding: 10px 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: underline;
+        color: rgb(20, 185, 150);
+    } 
+    .card .description{
+        font-size:15px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 15px;
+        text-align: justify;
+        padding: 0 10px 10px 10px;
+        color: #fff;
+    }
+
+
+</style>
+
+
+
+<body>
+    <div class="container">
+
+        <!-- card 1 -->
+
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/ptm-gavi-card1.jpg">
+            </div>
+            <!-- <div class="heading"> -->
+                <div class="name">
+                   GAVI
+                </div>  
+                <div class="description">
+                    Gavi is a small village tucked between tea estates and wide and dense forests.
+                    Gavi has caught the eye of the world for its excellent model and use of local people for conservation &
+                     tourism. A place which is full of breathtaking sceneries, wildlife, amazing people, and great activities
+                      is the epitome of everything that tourism in Kerala represents. The eco-tourist lodge at the village is
+                       located conveniently in front of a magnificent lake providing great views of a lake and the adjoining
+                        forest.
+
+                    
+                </div> 
+            <!-- </div>  -->
+        </div>
+
+        <!-- card2 -->
+
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/ptm-parumala-card2.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    PARUMALA PALLI
+                </div>  
+                <div class="description">
+                    Parumala Church located on a small island on the banks of Pampa River near Mannar.The church is known as 
+                    St. Peters and St. Paul's Orthodox Church.
+
+                    This church contains the mortals of St.Gregorios of Parumala (known as Parumala Thirumeni) 
+                    who was the first declared saint of Malankara Orthodox Church (Indian Orthodox Church). 
+                    It is one of the famous pilgrimage centers for Christians in Kerala. Most of the current structure 
+                    of the church was built in early 19th century.
+
+                </div> 
+            </div> 
+        </div>
+
+        <!--card3  -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/Pym-aranmula-card3jpg.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    AARANMULA
+                </div>  
+                <div class="description">
+                    Aranmula is famous for its Aranmula Kannadi (metal mirrors), the centuries’ old Sree Krishna Temple, 
+                    the unique ritualistic feast of `Vallasadya,’ and famed Aranmula Boat Race.It gets its name from the 
+                    centuries-old Aranmula Parthasarathy Temple (dedicated to Sree Krishna) on the banks of the holy River 
+                    Pamba, a virtual hotbed of devotees.
+                    It is also the venue for the Aranmula Vallasadya, a ritual offering to the deity Lord Parthasarathy in 
+                    which the oarsmen of the snake boats are offered a feast. 
+                </div> 
+            </div> 
+        </div>
+
+<!-- card4 -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/ptm-Perunthenaruvi-card4.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    PERUNTHENARUVI WATERFALL
+                </div>  
+                <div class="description">
+                    A natural waterfall with captivating surroundings is situated on the banks of the River Pamba. 
+                    The fall is 60 to 100 ft deep which pours down on a rocky bed. The place is a favourite picnic spot 
+                    among locals as well as tourists.
+
+                    
+                </div> 
+            </div> 
+        </div>
+
+        <!-- card5 -->
+        <div class="card">
+            <div class="img">
+                <img src="./dist-images/Ptm-kakki-card5.jpg">
+            </div>
+            <div class="heading">
+                <div class="name">
+                    KAKKI RESERVOIR
+                </div>  
+                <div class="description">
+                    Kakki Reservoir, set in sylvan background, is a tourist delight. The splendid artificial
+                    lake offers a pleasure boating experience. The surrounding forests abuts in Tigers, 
+                    Elephants, Deer and Monkeys.The lake, which was created when Kakki and Anathode dams were 
+                    built, is on one of the tributaries of Pamba, the Kakki tributary.
+                    The reservoir, which is also a tourist spot, is nestled in the Pathanamthitta reserve forest, very close to the Western Ghats. 
+                </div> 
+            </div> 
+
+
+        </div>
+    
+    </div>
+
+
+    
+</body>
+</html>
